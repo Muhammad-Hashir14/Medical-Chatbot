@@ -1,3 +1,11 @@
 flask
 setuptools
+langchain
+langchain_community
+sentence-transformers
+pypdf
+Pinecone
+langchain_pinecone
+google-genai
+langchain-google-genai
 -e .

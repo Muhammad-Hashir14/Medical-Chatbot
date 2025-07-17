@@ -5,12 +5,15 @@ import os
 files = [
     "src/__init.py__",
     "src/helper.py",
+    "templates/chat.html",
+    "static/style.css",
     "src/prompt.py",
     "research/snippets.ipynb",
     "setup.py",
     ".env",
     "requirements.txt",
-    "app.py"
+    "app.py",
+    "store_index.py"
 ]
 
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s]: %(message)s:')
