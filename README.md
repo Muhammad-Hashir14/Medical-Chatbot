@@ -15,6 +15,10 @@ cd Medical-Chatbot
 
 ## 2. Create a Virtual Environment
 ```bash 
+```
+
+## 2. Create a Virtual Environment
+```bash 
 pip install virtualenv
 virtualenv medibot
 medibot\Scripts\activate  # For Windows
@@ -24,13 +28,29 @@ source medibot/bin/activate  # For macOS/Linux
 
 ## 3. Install Dependencies
 ```bash 
+```
+
+## 3. Install Dependencies
+```bash 
 pip install -r requirements.txt
+```
 ```
 
 ## 4. Create a .env File
 ```bash 
+## 4. Create a .env File
+```bash 
 PINECONE_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 GEMINI_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+## 5. Run store_index.py
+```
+bash python store_index.py
+```
+
+## 6. Run the Flask App
+```
 ```
 
 ## 5. Run store_index.py
