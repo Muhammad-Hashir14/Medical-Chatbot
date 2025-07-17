@@ -11,45 +11,45 @@ This chatbot is powered by the **Gale Encyclopedia of Medicine, Second Edition**
 ```bash
 git clone https://github.com/Muhammad-Hashir14/Medical-Chatbot.git
 cd Medical-Chatbot
+```
+
 2. Create a Virtual Environment
-bash
-Copy
-Edit
+```bash 
 pip install virtualenv
 virtualenv medibot
 medibot\Scripts\activate  # For Windows
 # OR
 source medibot/bin/activate  # For macOS/Linux
-3. Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4. Create a .env File
-Create a .env file in the project root and add your API keys:
+```
 
-env
-Copy
-Edit
+3. Install Dependencies
+```bash 
+pip install -r requirements.txt
+```
+
+4. Create a .env File
+```bash 
 PINECONE_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 GEMINI_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
 5. Run store_index.py
-bash
-Copy
-Edit
-python store_index.py
+```
+bash python store_index.py
+```
+
 6. Run the Flask App
-bash
-Copy
-Edit
+```
 python app.py
-Visit http://127.0.0.1:5000 in your browser to interact with the chatbot.
+```
 
-💻 Tech Stack Used
-Python
+## 💻 Tech Stack Used
+- Python
+- Flask
+- Langchain
+- Gemini (Google LLM)
+- Pinecone (Vector Database)
 
-Flask
+🙋‍♂️ Author
+Developed by Muhammad Hashir
 
-Langchain
-
-Gemini (Google LLM)
